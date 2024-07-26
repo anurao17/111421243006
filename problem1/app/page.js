@@ -17,10 +17,10 @@ export default function Home() {
 
     return (
         <div>
-            <h1>Average Calculator</h1>
+            <h1>Number Manager</h1>
             <input
                 type="text"
-                placeholder="Enter number ID (p, f, e, r)"
+                placeholder="Enter API URL"
                 value={id}
                 onChange={(e) => setId(e.target.value)}
             />
